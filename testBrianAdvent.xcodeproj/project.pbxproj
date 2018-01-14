@@ -13,6 +13,7 @@
 		6000E544200C014B00702DAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6000E543200C014B00702DAB /* Assets.xcassets */; };
 		6000E547200C014B00702DAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6000E545200C014B00702DAB /* LaunchScreen.storyboard */; };
 		6000E54A200C014B00702DAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6000E549200C014B00702DAB /* main.m */; };
+		6000E552200C09CD00702DAB /* MapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6000E551200C09CD00702DAB /* MapVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		6000E546200C014B00702DAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6000E548200C014B00702DAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6000E549200C014B00702DAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6000E550200C09CD00702DAB /* MapVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapVC.h; sourceTree = "<group>"; };
+		6000E551200C09CD00702DAB /* MapVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				6000E545200C014B00702DAB /* LaunchScreen.storyboard */,
 				6000E548200C014B00702DAB /* Info.plist */,
 				6000E549200C014B00702DAB /* main.m */,
+				6000E550200C09CD00702DAB /* MapVC.h */,
+				6000E551200C09CD00702DAB /* MapVC.m */,
 			);
 			path = testBrianAdvent;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6000E53F200C014B00702DAB /* ViewController.m in Sources */,
+				6000E552200C09CD00702DAB /* MapVC.m in Sources */,
 				6000E54A200C014B00702DAB /* main.m in Sources */,
 				6000E53C200C014B00702DAB /* AppDelegate.m in Sources */,
 			);
