@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSString *hello = @"Hello";
+    NSInteger num  = 4;
+    NSLog(hello);
+    NSLog(@"%@", num);
 }
 
 
