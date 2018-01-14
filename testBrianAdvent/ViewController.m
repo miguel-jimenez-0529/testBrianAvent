@@ -29,7 +29,7 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    NSLog(@"Out of memory")
+    NSLog(@"Out of memory");
 }
 
 
