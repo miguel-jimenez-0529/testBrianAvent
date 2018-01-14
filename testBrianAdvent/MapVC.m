@@ -21,7 +21,7 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    NSLog(@"Low memory")
+    NSLog(@"Low memory");
 }
 
 
