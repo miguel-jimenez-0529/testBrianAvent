@@ -14,6 +14,10 @@
 
 @implementation ViewController
 
+
+- (IBAction)btnLeft:(UIButton *)sender {
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -22,7 +26,6 @@
     NSLog(hello);
     NSLog(@"%@", num);
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
